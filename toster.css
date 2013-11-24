@@ -1,0 +1,25 @@
+.answer_like_link.dislike:before { /* серая рука вниз */
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAADoSURBVHjanNI/LwRRFIbx34wVmi19hC1Ep1BPIplEMa1aFBqFgo9ApxAKnU6hNc2axkThA6j0oqXZxJ+xuZpL1mJWPNU5N+cpzn1PEkJQVvUxNpDiDadFnq0ZoazqPWzG9iQ5v7js4h5d32lwVOTZdlnVd1hEwE2K9V8kmMZWWdWzeMIDHjHoYFk7U5hBD9fxrdfBgr+z9FGkmPMP0pb9JoqvE2aGePlJ3G+RGxwUefY8NjNMQgjGgj7DamxXijzrjxzADhIcfhFjXoMYwW2RZ/NtO47v08T6atLnfFLkWYPdeCX9NvF9ALFLRNQsU+mrAAAAAElFTkSuQmCC') !important;
+}
+.answer_like_link.dislike.liked:before { /* красная рука вниз */
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAADnSURBVHjanNKtTgNREIbhZ5cSMJWY9RUEh+AGUNwA+gSBQSDArAfWVBAQOFiD4A6qEVwACk+6EkwTfpZmMQdSCmwJr5o5mVfM+SZpmkZVlGfYRoo3XGZ5CCaoivIQO7E9T4ZHF10M0fWdGqdZHvaqorzHKhrcptj6RYJ57FZFuYgnPOARow7WtTOHBfRwE996Haz4O2sfRYol/yBt2W+m+DpjZoyXn8R+i1zjOMvD89TMOGmaxlTQV9iM7UaWh8HEAewjwckXMeY1ihHcZXlYbttxep861tezPueTLA81DuKVDNrE9wEAwqJElJkeLCAAAAAASUVORK5CYII=') !important;
+}
+.dislike {
+	margin-left: 10px;
+	color: #E5869F !important;
+	cursor: pointer;
+}
+
+.answer_like_link:before {
+    content: "";
+    display: inline-block;
+    height: 13px;
+    margin-right: 5px;
+    width: 14px;
+}
+.answer_like_link {
+    color: #CED1D4;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
