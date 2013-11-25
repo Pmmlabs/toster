@@ -40,8 +40,10 @@ else {
 			var _id = id;
 			return function (data) {
 				hand = $('div[justid='+_id+']');
-				hand.text(data.count);
-				if (data.count > 0) hand.addClass('has_like');
+				if (data.count > 0) {
+					hand.addClass('has_like');
+					hand.text(data.count);
+				}
 				if (data.count > minuscount) hand.parent().parent().hide(); // скрытие плохих вопросов
 			}
 			})()
